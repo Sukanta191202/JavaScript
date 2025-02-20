@@ -1,12 +1,4 @@
 
-.error {
-    color: red;
-    margin-bottom: 15px;
-} 
-
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -23,6 +15,7 @@ body{
     align-items: center;
 }
 
+
 .registration-form{
     height: 100%;
     width: 60%;
@@ -31,6 +24,11 @@ body{
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+}
+
+.registration-form h1{
+    color: #119811;
+
 }
 
 .form{
@@ -64,11 +62,13 @@ body{
 }
 
 .form-group input{
-    background-color: #cad3d4;
+    background-color: #a8acce;
     border: none;
     height: 2rem;
     padding: 0.6rem;
     border-radius: 0.5rem;
+    color: #090808;
+    font-size: 0.9rem;
 }
 
 .form-group input:focus{
@@ -76,7 +76,7 @@ body{
 }
 
 .form-group label{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #2c3e50;
     margin-bottom: 0.3rem;
@@ -117,8 +117,16 @@ body{
     cursor: pointer;
 }
 
+.button1 button{
+    background-color: #b6dfb6;
+}
+
+.button2 button{
+    background-color: #e5bdbd;
+}
+
 .button1 button:hover{
-    background-color: rgba(32,90,71,0.568);
+    background-color: rgba(38, 120, 93, 0.568);
     box-shadow: 3px 2px #005f73;
     transform: translateY(-3px);
 }
@@ -144,7 +152,7 @@ body{
     height: fit-content;
     margin: 1rem 1rem 1rem 1rem;
     padding: 1rem 0 1rem 1rem;
-    border: 2px solid black;
+    border: 2px solid #e39494;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,3 +178,13 @@ body{
     height: 50%;
     width:  50%;
 }
+
+.output-data-Content{
+    width: 80%;
+}
+
+.output-data-Content h2{
+   text-align: center;
+   color: #461b85c4;
+}
+
