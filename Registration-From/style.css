@@ -1,0 +1,172 @@
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+} 
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form{
+    height: 100%;
+    width: 60%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form{
+    padding-top: 0.31rem;
+    width: 28rem;
+}
+
+.name-group{
+    display: flex;
+   width: 100%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3.5rem;
+    margin-top: 1.5rem;    
+}
+
+.first-name{
+    display: flex;
+    padding-right: .51rem;
+    flex: 1;
+}
+
+.last-name{
+    display: flex;
+    padding-left: .51rem;
+    flex: 1;
+}
+
+.form-group input{
+    background-color: #cad3d4;
+    border: none;
+    height: 2rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.form-group input:focus{
+    outline: none;
+}
+
+.form-group label{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+}
+
+.gender-group{
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+    align-items: center;
+}
+
+.gender-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 17rem;
+}
+
+.gender-option input{
+    margin-right: 0.5rem;
+}    
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    width: 100%;
+}
+.button button{
+    height: 2rem;
+    width: 6rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgb(82,63,63);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.button1 button:hover{
+    background-color: rgba(32,90,71,0.568);
+    box-shadow: 3px 2px #005f73;
+    transform: translateY(-3px);
+}
+
+.button2 button:hover{
+    background-color: rgba(189, 43, 38, 0.568);
+    box-shadow: 3px 2px #743636;
+    transform: translateY(-3px);
+}
+
+.delete-form{
+    width: 40%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    overflow-y: auto;
+    flex-direction:column;
+    box-sizing: border-box;
+}
+
+.output-data {
+    height: fit-content;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 0 1rem 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.output-data p {
+    margin: 10px 0;
+}
+.delete-button{
+    height: 5rem;
+    width: 4rem;
+    border: 0;
+    background-color: transparent;
+    border-radius: 3rem;
+}
+.delete-button :hover{
+    cursor: pointer;
+    background-color: rgba(194, 37, 37, 0.911);
+    border-radius: 0.5rem;
+
+}
+.delete-button img{
+    height: 50%;
+    width:  50%;
+}
