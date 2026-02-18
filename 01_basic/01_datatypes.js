@@ -38,6 +38,7 @@ console.log("Sukanta");
             isStudent : true,
           };
 
+          // Arrays
           let numbers = [1, 2, 3, 4, 5];
 
           function greet() {
@@ -50,6 +51,7 @@ console.log("Sukanta");
         console.log(typeof person);  // object
         console.log(typeof numbers);  // object
         console.log(typeof greet);  // function
+        
 
 
 
