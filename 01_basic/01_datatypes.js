@@ -69,3 +69,5 @@ console.log("Sukanta");
    // a. Objects => { name: "Sukanta", age: 30 }, { id: 1, title: "JavaScript" }, etc.
    // b. Arrays => [1, 2, 3], ["a", "b", "c"], etc.
    // c. Functions => function greet() { console.log("Hello!"); }, () => console.log("Hi!"), etc.
+
+   //object syntax => { key: value, key2: value2, ... }
