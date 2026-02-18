@@ -71,3 +71,4 @@ console.log("Sukanta");
    // c. Functions => function greet() { console.log("Hello!"); }, () => console.log("Hi!"), etc.
 
    //object syntax => { key: value, key2: value2, ... }
+   
