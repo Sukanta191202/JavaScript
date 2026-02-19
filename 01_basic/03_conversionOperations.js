@@ -30,6 +30,7 @@ let valueInNumber = Number(score);
 //-------- String conversion --------
 // let someNubmer = 33
 // let someNumber = true
+// let someNumber = null
 // let someNumber = undefined
 let someNumber = 2+2
 
@@ -40,6 +41,7 @@ let valueInString = String(someNumber)
 
 // 33 => "33"
 // true => "true"
+// null => "null"
 // undefined => "undefined"
 // 2+2 => "4"
 
