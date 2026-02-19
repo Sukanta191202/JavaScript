@@ -82,8 +82,12 @@ let valueInBoolean = Boolean(isLogedIn)
     // console.log(2 ** 3);   // =>  8
     // console.log(10 % 3);   // =>  2
     // console.log(2 / 3);    // =>  0.6666666666666666
-    
 
+    let str1 = "Hello"
+    let str2 = " Sukanta"
+
+    // let str3 = str1 + str2;
+    // console.log(str3);   // => "Hello Sukanta" because + operator is overloaded for string concatenation
     
     // console.log(3 + 3);           // => 6
     // console.log( 1 + "2");        // => "12"
@@ -92,7 +96,31 @@ let valueInBoolean = Boolean(isLogedIn)
     // console.log("1" + 2 + 2);     // => "122" because "1" + 2 => "12" and then "12" + 2 => "122"
     // console.log( 1 + 2 + "2");    // => "32" because 1 + 2 => 3 and then 3 + "2" => "32"
     
+   // console.log( 1 + 2 * 3 / 4);     //Bad Practice   
+
+
+
+     let num1, num2, num3
+     num1 = num2 = num3 = 2 + 2
+
+    //  console.log(num1);
+    //  console.log(num2);
+    //  console.log(num3);
+     
+                    // Suffix and Prefix increment/decrement
+
+    let gameCounter = 100
+   
+    ++gameCounter
+    console.log(gameCounter);   // => 101
+
+    gameCounter++
+    console.log(gameCounter);   // => 102
+
     
-    
-    
+    --gameCounter
+    console.log(gameCounter);   // => 101   
+
+    gameCounter--
+    console.log(gameCounter);   // => 100
     
