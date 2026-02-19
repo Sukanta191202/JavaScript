@@ -68,7 +68,7 @@ let valueInBoolean = Boolean(isLogedIn)
 // undefined => false
 
 
-                  //  Opertaions / conversion confusion
+          //  --------- Opertaions / conversion confusion -------
 
 
     let value = 3
@@ -86,7 +86,7 @@ let valueInBoolean = Boolean(isLogedIn)
     let str1 = "Hello"
     let str2 = " Sukanta"
 
-    // let str3 = str1 + str2;
+    let str3 = str1 + str2;
     // console.log(str3);   // => "Hello Sukanta" because + operator is overloaded for string concatenation
     
     // console.log(3 + 3);           // => 6
