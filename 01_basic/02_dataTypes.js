@@ -18,7 +18,7 @@ console.log("Sukanta");
         let college = null;
         let result = undefined;
         let id = Symbol('12345');
-        let bigNumber = BigInt(1234567890123456789012345678901234567890);
+        let bigNumber = 37492935925929n;
 
         console.table([name, age, isStudent, college, result, id, bigNumber]);
 
