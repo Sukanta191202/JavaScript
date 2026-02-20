@@ -17,7 +17,7 @@ console.log("Sukanta");
         let isStudent = true;
         let college = null;
         let result = undefined;
-        let id = Symbol("id");
+        let id = Symbol('12345');
         let bigNumber = BigInt(1234567890123456789012345678901234567890);
 
         console.table([name, age, isStudent, college, result, id, bigNumber]);
@@ -29,6 +29,7 @@ console.log("Sukanta");
         console.log(typeof result);  // undefined
         console.log(typeof id);  // symbol
         console.log(typeof bigNumber);  // bigint   
+        
 
 
           // Non-Primitive Data Types
@@ -41,16 +42,16 @@ console.log("Sukanta");
           // Arrays
           let numbers = [1, 2, 3, 4, 5];
 
-          function greet() {
+         const myFunction = function() {
             console.log("Good Students");
           }
 
 
-        console.table([person, numbers, greet]);
+        console.table([person, numbers, myFunction]);
         
         console.log(typeof person);  // object
         console.log(typeof numbers);  // object
-        console.log(typeof greet);  // function
+        console.log(typeof myFunction);  // function
         
 
 
