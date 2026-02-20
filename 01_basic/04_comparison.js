@@ -125,7 +125,11 @@
 
      But when we store something in heap memory (like objects, arrays, etc.), we get a reference to that value, not the actual copy.
 
-     Spread operator is used to create a shallow copy of the object, which means it creates a new object with the same properties and values as the original object. This way, userThree is a new object that has the same properties and values as userOne, but it is not the same reference in memory. So when we change the email property of userTwo, it does not affect userThree, because they are different objects in memory. 
+     Spread operator is used to create a shallow copy of the object, which means it creates a new object with the same properties and values as the original object. 
+
+     This way, userThree is a new object that has the same properties and values as userOne, but it is not the same reference in memory. 
+     
+     So when we change the email property of userTwo, it does not affect userThree, because they are different objects in memory. 
 
      
  */
