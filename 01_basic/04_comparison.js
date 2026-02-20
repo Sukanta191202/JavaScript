@@ -45,7 +45,7 @@
      console.log(null != 0);  //true
 
      console.log(null == 0);  //false  => that's why euality check
-    console.log(null == "" );   //false
+     console.log(null == "" );   //false
      
 /* Note : [The reason is that an equality check == and comparisons > < >= <= work differently.
            Comparisons convert null to a number, treating it as 0.
@@ -60,6 +60,7 @@
      console.log(null >= undefined);   //false
      console.log(null <= undefined);   //false
      console.log(null == undefined);   //true
+     console.log(null === undefined);  //false
 
     
 
